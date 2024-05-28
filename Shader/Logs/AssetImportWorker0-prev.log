@@ -15,7 +15,7 @@ E:/DefCoder/Secondo Anno Event Horizon/Singoli/DeFranceschi_Shader/Shader
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54042
+54799
 Successfully changed project path to: E:/DefCoder/Secondo Anno Event Horizon/Singoli/DeFranceschi_Shader/Shader
 E:/DefCoder/Secondo Anno Event Horizon/Singoli/DeFranceschi_Shader/Shader
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/DefCoder/Secondo Anno Event Horizon/Singoli/DeFranceschi_Shader/Shader
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [716] Host "[IP] 192.168.0.64 [Port] 0 [Flags] 2 [Guid] 3661326264 [EditorId] 3661326264 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMP61JL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5240] Host "[IP] 192.168.0.64 [Port] 0 [Flags] 2 [Guid] 149827758 [EditorId] 149827758 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMP61JL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [716] Host "[IP] 192.168.0.64 [Port] 0 [Flags] 2 [Guid] 3661326264 [EditorId] 3661326264 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMP61JL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5240] Host "[IP] 192.168.0.64 [Port] 0 [Flags] 2 [Guid] 149827758 [EditorId] 149827758 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMP61JL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 8.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path E:/DefCoder/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -71,44 +71,44 @@ Initialize mono
 Mono path[0] = 'E:/DefCoder/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'E:/DefCoder/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/DefCoder/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/DefCoder/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004961 seconds.
-- Loaded All Assemblies, in  0.523 seconds
+Registered in 0.004875 seconds.
+- Loaded All Assemblies, in  0.549 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.389 seconds
-Domain Reload Profiling: 912ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  0.378 seconds
+Domain Reload Profiling: 927ms
+	BeginReloadAssembly (202ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (51ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (60ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (197ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (201ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (187ms)
-			TypeCache.Refresh (186ms)
-				TypeCache.ScanAssembly (169ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (182ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (390ms)
+	FinalizeReload (378ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (304ms)
+		SetupLoadedEditorAssemblies (292ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (200ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,56 +116,56 @@ Domain Reload Profiling: 912ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.184 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.867 seconds
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.005 seconds
-Domain Reload Profiling: 2189ms
-	BeginReloadAssembly (221ms)
+- Finished resetting the current domain, in  0.940 seconds
+Domain Reload Profiling: 1808ms
+	BeginReloadAssembly (206ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (831ms)
-		LoadAssemblies (637ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (546ms)
+		LoadAssemblies (332ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (324ms)
-			TypeCache.Refresh (284ms)
-				TypeCache.ScanAssembly (258ms)
-			ScanForSourceGeneratedMonoScriptInfo (30ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1005ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (281ms)
+				TypeCache.ScanAssembly (256ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (941ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (737ms)
+		SetupLoadedEditorAssemblies (666ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (475ms)
-			ProcessInitializeOnLoadMethodAttributes (148ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (486ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4164 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (344.7 KB). Loaded Objects now: 4625.
-Memory consumption went from 141.0 MB to 140.7 MB.
-Total: 5.357700 ms (FindLiveObjects: 0.547500 ms CreateObjectMapping: 0.640200 ms MarkObjects: 3.747000 ms  DeleteObjects: 0.421800 ms)
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (344.8 KB). Loaded Objects now: 4630.
+Memory consumption went from 143.4 MB to 143.1 MB.
+Total: 3.956300 ms (FindLiveObjects: 0.388900 ms CreateObjectMapping: 0.193800 ms MarkObjects: 3.209100 ms  DeleteObjects: 0.163500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,9 +182,660 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5728.431422 seconds.
-  path: Assets/Shaders/Transparent.shadergraph
-  artifactKey: Guid(568b9e4b8b5ccfd49a839bfe63bddbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Transparent.shadergraph using Guid(568b9e4b8b5ccfd49a839bfe63bddbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3b9ab268b8cc011be98f8a490e59b4') in 0.176076 seconds
+  Time since last request: 13651.632801 seconds.
+  path: Assets/Shaders/Shader_Refraction.shadergraph
+  artifactKey: Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Refraction.shadergraph using Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc7c3a73c62b3aa54f51a57c98adec3') in 0.124001 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 498.987237 seconds.
+  path: Assets/Shaders/Shader_Refraction.shadergraph
+  artifactKey: Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Refraction.shadergraph using Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeecf785b835463b78867379e4b83511') in 0.465615 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 57.558706 seconds.
+  path: Assets/Shaders/Shader_Refraction.shadergraph
+  artifactKey: Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Refraction.shadergraph using Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fa27097f9c31bb78e741d6beb901ad') in 0.124573 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.922025 seconds.
+  path: Assets/Shaders/Shader_Refraction.shadergraph
+  artifactKey: Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Refraction.shadergraph using Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a6b873fc037e742a5ea11f4ba06202') in 0.008672 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 511.890375 seconds.
+  path: Assets/Shaders/Shader_Refraction.shadergraph
+  artifactKey: Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Refraction.shadergraph using Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3261554e0c3238e3a74445fe8d403826') in 0.431418 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.621204 seconds.
+  path: Assets/Shaders/Shader_Refraction.shadergraph
+  artifactKey: Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Refraction.shadergraph using Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a073fe5205bd097bc1f07793dac3945') in 0.453442 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 237.601869 seconds.
+  path: Assets/Shaders/Shader_Refraction.shadergraph
+  artifactKey: Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Refraction.shadergraph using Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343f0f0a9c07ab9e851c5c8e95616653') in 0.472546 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.328073 seconds.
+  path: Assets/Shaders/M_Refraction.mat
+  artifactKey: Guid(ec136347c58e15442b263ece197c586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/M_Refraction.mat using Guid(ec136347c58e15442b263ece197c586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8e2ca1cfe9f2480a22b33fe529d87f') in 0.022205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 162.700771 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(4f508450da9eb284f97158bac2a9fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(4f508450da9eb284f97158bac2a9fc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bee74289a2e94745fea484b2b675fc4') in 0.004398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.840896 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f184061cbee71c4e07605a55d30498') in 0.018097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 11.611356 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8338abbc6019477daa200779593a3b') in 0.070625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.680831 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab04f0365d64c0f779387e2aa09ce260') in 0.010490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.000764 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3782b6468a8ccbd5fce748fb2a189c') in 0.010542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.470307 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c01c9d97d06309805b100bfff12ed5') in 0.015678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.423342 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c7a71207f2d6e1976be97c05ad4cc1') in 0.010558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.804819 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edec52777e675d996c74e42aea03af5') in 0.011912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.209743 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baee6d7f313c782a789fb30a3410d9f3') in 0.012351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.197483 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f49ce44e2beada1d31723f3a11be2a') in 0.011248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 9.057063 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a207fa310d077a0e594b701db0a7ce04') in 0.011271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.998880 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482b9290a519d15fa6d13d8740fd46e7') in 0.010601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.599752 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624fb3ad2673ab32c6348d725593e295') in 0.011697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.215802 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592d9a091f46e7907888107b52eb1a5f') in 0.010814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 24.405508 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68b3267ca5287193e28e4e22ea9eb40') in 0.011871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.624097 seconds.
+  path: Assets/Shaders/ShaderGrass/Materials/Grass001 1.mat
+  artifactKey: Guid(51028d7eb09893246a2706f2100eb403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/ShaderGrass/Materials/Grass001 1.mat using Guid(51028d7eb09893246a2706f2100eb403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f643ef859257ddfd299bba0b7aebb7d2') in 0.016009 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Shaders/Shader_Transparency.shadergraph
+  artifactKey: Guid(6a7ed0f1e89a0e34f901454ee698d88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Transparency.shadergraph using Guid(6a7ed0f1e89a0e34f901454ee698d88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d35c44f96352b8e20cfdd64f1ce5649') in 0.008475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.691991 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803ca238de17cb6ad18d1db4721f42b4') in 0.010372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 23.370742 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76486e185b39b9628b6ddb545f2d05e5') in 0.268351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.788983 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9188e52701dc837e8b616b0c698e345e') in 0.014744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1538.125482 seconds.
+  path: Assets/Materials/Base 1.mat
+  artifactKey: Guid(84d05d9b9fef7c64bbdcbad6ae330af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Base 1.mat using Guid(84d05d9b9fef7c64bbdcbad6ae330af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7afbc87b67e5ffd02a7ec733191221b') in 0.228256 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Shaders/ShaderGrass/Grass001_1K-JPG_Color.jpg
+  artifactKey: Guid(29f5cef44d29d81458ca5e5c527f6904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/ShaderGrass/Grass001_1K-JPG_Color.jpg using Guid(29f5cef44d29d81458ca5e5c527f6904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65416c9864a2150ebe9f6fdd3020dfac') in 0.139757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Shaders/ShaderGrass/Materials/Grass001 1.mat
+  artifactKey: Guid(51028d7eb09893246a2706f2100eb403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/ShaderGrass/Materials/Grass001 1.mat using Guid(51028d7eb09893246a2706f2100eb403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca8f2b4fb33691cfa1d122fd592a9afa') in 0.016901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c27c130559048c7573a54a568327a1ef') in 0.026873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d3f63bd68ebcfe6b02f9d4f98e92e9f') in 0.005576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/M_Refraction.mat
+  artifactKey: Guid(ec136347c58e15442b263ece197c586a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/M_Refraction.mat using Guid(ec136347c58e15442b263ece197c586a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eab07023537cdcd98c7cefe7f738bf19') in 0.012074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Shaders/ShaderGrass/Grass001_1K-JPG.usdc
+  artifactKey: Guid(d7f45e7d430315c46b8b7b43ebacf22f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/ShaderGrass/Grass001_1K-JPG.usdc using Guid(d7f45e7d430315c46b8b7b43ebacf22f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '444194cd1ad13bfbe1dacc434baad42f') in 0.007033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Shaders/ShaderGrass/Grass001.png
+  artifactKey: Guid(7a7ea71630c4a294391c0689d141a712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/ShaderGrass/Grass001.png using Guid(7a7ea71630c4a294391c0689d141a712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '854fa721b94f63ffef68d6b596fc522a') in 0.024876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials/Base.mat
+  artifactKey: Guid(c1e81d0f1a601e84e88c01cc059dea00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Base.mat using Guid(c1e81d0f1a601e84e88c01cc059dea00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fb3484291247e2d813877be1af5838c') in 0.005225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Shaders/Shader_Transparency.shadergraph
+  artifactKey: Guid(6a7ed0f1e89a0e34f901454ee698d88a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Shader_Transparency.shadergraph using Guid(6a7ed0f1e89a0e34f901454ee698d88a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b334e22d8835a5ac3b939df973c1c10') in 0.042205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Shaders/Shader_Textures.shadergraph
+  artifactKey: Guid(5a5f04b2bc2e6a244b929e639aae0ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Shader_Textures.shadergraph using Guid(5a5f04b2bc2e6a244b929e639aae0ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd9051338f0d2354c8845b9e92b6ab95') in 0.013266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Shaders/Shader_RimLight.shadergraph
+  artifactKey: Guid(0d21f4f92f286da478b0095b89253c6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Shader_RimLight.shadergraph using Guid(0d21f4f92f286da478b0095b89253c6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47b281caf5a2d3ad2921e3efe164bc5d') in 0.013232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Shaders/ShaderGrass/Grass001_1K-JPG_AmbientOcclusion.jpg
+  artifactKey: Guid(5b574dd7f00797541ae461a66e7a272c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/ShaderGrass/Grass001_1K-JPG_AmbientOcclusion.jpg using Guid(5b574dd7f00797541ae461a66e7a272c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf55bd00f9f12822f68d0b5e906b28ef') in 0.030853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9361.591963 seconds.
+  path: Assets/Materials/M_Refraction.mat
+  artifactKey: Guid(ec136347c58e15442b263ece197c586a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/M_Refraction.mat using Guid(ec136347c58e15442b263ece197c586a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eac113a41d3dfdbbcca3ee76be0f8f45') in 0.014487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1385.212646 seconds.
+  path: Assets/Prefab/Crystal.prefab
+  artifactKey: Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Crystal.prefab using Guid(47a2c5074c8eda347bc38a9175a57dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91bd5f678ae8646879ce1bc4f121a1d') in 1.169231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.055986 seconds.
+  path: Assets/Shaders/Shader_Refraction.shadergraph
+  artifactKey: Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Refraction.shadergraph using Guid(dad3f1e4c31a5514ab0ae2cc41a010b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cde306bb3acb0ad2aaf0fc8d7c72b0') in 0.033223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.173408 seconds.
+  path: Assets/Shaders/Refraction.shadergraph
+  artifactKey: Guid(dfbb153ba1c73a445ac44de2e60529df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Refraction.shadergraph using Guid(dfbb153ba1c73a445ac44de2e60529df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48a0ae75085c09a8611a2721b56c4e66') in 0.020331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.452064 seconds.
+  path: Assets/Shaders/Refraction.shadergraph
+  artifactKey: Guid(dfbb153ba1c73a445ac44de2e60529df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Refraction.shadergraph using Guid(dfbb153ba1c73a445ac44de2e60529df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9848e1ee3a71d44270c2eb44ae9a60e5') in 0.024510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 66.851854 seconds.
+  path: Assets/Shaders/RefractionM.mat
+  artifactKey: Guid(96756135df8348743bb86e578711dd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/RefractionM.mat using Guid(96756135df8348743bb86e578711dd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db44b880827beab58b11ab6e2925128') in 0.012803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.860735 seconds.
+  path: Assets/Shaders/RefractionM.mat
+  artifactKey: Guid(96756135df8348743bb86e578711dd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/RefractionM.mat using Guid(96756135df8348743bb86e578711dd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '144efa98ca23d4a6f19fe8e0dd3c87f6') in 0.005582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.072070 seconds.
+  path: Assets/Materials/M_Refraction.mat
+  artifactKey: Guid(ec136347c58e15442b263ece197c586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Refraction.mat using Guid(ec136347c58e15442b263ece197c586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2b64057c3dcb7100fd14b0d1048ba3') in 0.007530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.375491 seconds.
+  path: Assets/Materials/RefractionM.mat
+  artifactKey: Guid(96756135df8348743bb86e578711dd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/RefractionM.mat using Guid(96756135df8348743bb86e578711dd01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1934394348e634496bdd9220585a444') in 0.020141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1018.536918 seconds.
+  path: Assets/source/Diamond.fbx
+  artifactKey: Guid(a593cffe2d7a8a747bdc7f4bec3a56d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/source/Diamond.fbx using Guid(a593cffe2d7a8a747bdc7f4bec3a56d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cdfeac8f88b06a031c3df288d7bb725') in 0.097335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.697298 seconds.
+  path: Assets/Materials/M_Refraction.mat
+  artifactKey: Guid(ec136347c58e15442b263ece197c586a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/M_Refraction.mat using Guid(ec136347c58e15442b263ece197c586a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f43e65c03c8da4ff3e5164cdc104526') in 0.013869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 96.225333 seconds.
+  path: Assets/source/Diamond.fbx
+  artifactKey: Guid(a593cffe2d7a8a747bdc7f4bec3a56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Diamond.fbx using Guid(a593cffe2d7a8a747bdc7f4bec3a56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378d7391612d1ee1ed44aee614feb1cf') in 0.390748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 128.273425 seconds.
+  path: Assets/Materials/M_Refraction.mat
+  artifactKey: Guid(ec136347c58e15442b263ece197c586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Refraction.mat using Guid(ec136347c58e15442b263ece197c586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291d7bda61b1c84b77f5ec2da44e2cbb') in 0.009589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.482062 seconds.
+  path: Assets/Materials/M_Crystal.mat
+  artifactKey: Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Crystal.mat using Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4095053bf6553c97791fa5d3b0bb2cd1') in 0.010547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.957782 seconds.
+  path: Assets/Materials/M_Crystal.mat
+  artifactKey: Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/M_Crystal.mat using Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d47a40fbe8b5ea8b91237578c247d4d') in 0.007182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.413142 seconds.
+  path: Assets/Shaders/Shader_Crystal.shadergraph
+  artifactKey: Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Crystal.shadergraph using Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f68cc2d76371544c55ec896eb03299') in 1.044889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.583051 seconds.
+  path: Assets/Materials/Shader_Transparency.mat
+  artifactKey: Guid(dec70dc3499e99f4dbf2bbe1cf6b875a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Shader_Transparency.mat using Guid(dec70dc3499e99f4dbf2bbe1cf6b875a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3c2f8a170ffaf7b0c154914d9c13f34') in 0.011846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 45.687358 seconds.
+  path: Assets/Shaders/Shader_Crystal.shadergraph
+  artifactKey: Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Shader_Crystal.shadergraph using Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67016522b1630951e4af889f54bd82d6') in 0.251864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 87.645815 seconds.
+  path: Assets/Shaders/Shader_Crystal.shadergraph
+  artifactKey: Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Shader_Crystal.shadergraph using Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9e1c4992e8228815001b00dd69cc710') in 0.313355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.606753 seconds.
+  path: Assets/Shaders/Shader_Crystal.shadergraph
+  artifactKey: Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader_Crystal.shadergraph using Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f5edfc66dae0c239d544ed2bda5565') in 0.738765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.215444 seconds.
+  path: Assets/Materials/Shader_Transparency.mat
+  artifactKey: Guid(dec70dc3499e99f4dbf2bbe1cf6b875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shader_Transparency.mat using Guid(dec70dc3499e99f4dbf2bbe1cf6b875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032d88bd9011cbaf5e6d752bc4594b43') in 0.036634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.520153 seconds.
+  path: Assets/Shaders/M_Crystal.mat
+  artifactKey: Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/M_Crystal.mat using Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68ff4916b09915e49da53167f061f511') in 0.010430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.591021 seconds.
+  path: Assets/Materials/M_Crystal.mat
+  artifactKey: Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/M_Crystal.mat using Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '606ae5a839f2d0454e4a5c609400f193') in 0.013307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 180.948509 seconds.
+  path: Assets/Shaders/imgDiamond_001.bmp
+  artifactKey: Guid(326f64eae798455429172b841a85e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/imgDiamond_001.bmp using Guid(326f64eae798455429172b841a85e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd3e9046a79934394082f7e769f2633') in 0.038831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.892461 seconds.
+  path: Assets/Shaders/imgDiamond_001.bmp
+  artifactKey: Guid(326f64eae798455429172b841a85e507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/imgDiamond_001.bmp using Guid(326f64eae798455429172b841a85e507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e44326ad0bd88d2e8d14340028166f08') in 0.027824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 86.168738 seconds.
+  path: Assets/Shaders/CrystalIMG_001.bmp
+  artifactKey: Guid(fd38ff4d48f07eb4dbbc0107575f0be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/CrystalIMG_001.bmp using Guid(fd38ff4d48f07eb4dbbc0107575f0be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6195696fdf2e91946528ffd359e7b826') in 0.026160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.997561 seconds.
+  path: Assets/Shaders/CrystalIMG_001.bmp
+  artifactKey: Guid(fd38ff4d48f07eb4dbbc0107575f0be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/CrystalIMG_001.bmp using Guid(fd38ff4d48f07eb4dbbc0107575f0be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c401fd01863f655bb418a45a44ff4ffc') in 0.046533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.461397 seconds.
+  path: Assets/Materials/M_Crystal.mat
+  artifactKey: Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/M_Crystal.mat using Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a9e8cc9517479070aec51e7756b9b78') in 0.011687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.908102 seconds.
+  path: Assets/Shaders/Shader_Crystal.shadergraph
+  artifactKey: Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Shader_Crystal.shadergraph using Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0669841e9dac86135420957a89b20c74') in 0.295878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 477.095662 seconds.
+  path: Assets/Shaders/Shader_Crystal.shadergraph
+  artifactKey: Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Shader_Crystal.shadergraph using Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acddab30d6e38b6ca104c7cdfdefb7b2') in 0.479917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 23.720889 seconds.
+  path: Assets/Shaders/Shader_Crystal.shadergraph
+  artifactKey: Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Shader_Crystal.shadergraph using Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c181cae745ad7c8ad3479afd1dc984e') in 0.322084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 65.027247 seconds.
+  path: Assets/Shaders/Shader_Crystal.shadergraph
+  artifactKey: Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Shader_Crystal.shadergraph using Guid(bf5031d8365e280428f5ec8f3f0a1c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a9dc7b17135bbd9f728cddc2476e255') in 0.307867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.666548 seconds.
+  path: Assets/Materials/M_Crystal.mat
+  artifactKey: Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Crystal.mat using Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9084e6be2e3e48d87c84354ec59aaac') in 1.106660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 112.845836 seconds.
+  path: Assets/Materials/M_Crystal.mat
+  artifactKey: Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Crystal.mat using Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22205b6c931b63eff36ceca4f2552deb') in 0.017013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.940056 seconds.
+  path: Assets/Materials/M_Crystal.mat
+  artifactKey: Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/M_Crystal.mat using Guid(c3d1b43e8f1360c4b85284df04ec677e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79833f2d4a06e3c3b7303b90fe411c57') in 0.029102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 42.286838 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2afe99c7050f43d41ec7303a9ac035a') in 0.004967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 63.804550 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbf52db6a64eecc4833740d6e2919b94') in 0.004204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
